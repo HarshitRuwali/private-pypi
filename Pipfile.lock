@@ -1,0 +1,57 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "306cd70fb13a89e7b0e0568c98826564d30f82044338bf259145880a32dd7ea0"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.11"
+        },
+        "sources": [
+            {
+                "name": "local",
+                "url": "http://localhost:8080/simple",
+                "verify_ssl": false
+            },
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "coreutils": {
+            "hashes": [
+                "sha256:c7f5d7c8326d5176fca087ff5b95fed819c21227ffb5dc49e492a2f832e905cf"
+            ],
+            "index": "local",
+            "version": "==0.1.2"
+        },
+        "types-pytz": {
+            "hashes": [
+                "sha256:4433b5df4a6fc587bbed41716d86a5ba5d832b4378e506f40d34bc9c81df2c24",
+                "sha256:a1eebf57ebc6e127a99d2fa2ba0a88d2b173784ef9b3defcc2004ab6855a44df"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==2024.2.0.20240913"
+        },
+        "types-tzlocal": {
+            "hashes": [
+                "sha256:0302e8067c86936de8f7e0aaedc2cfbf240080802c603df0f80312fbd4efb926",
+                "sha256:b84a115c0c68f0d0fa9af1c57f0645eeef0e539147806faf1f95ac3ac01ce47b"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==5.1.0.1"
+        },
+        "tzlocal": {
+            "hashes": [
+                "sha256:49816ef2fe65ea8ac19d19aa7a1ae0551c834303d5014c6d5a62e4cbda8047b8",
+                "sha256:8d399205578f1a9342816409cc1e46a93ebd5755e39ea2d85334bea911bf0e6e"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==5.2"
+        }
+    },
+    "develop": {}
+}

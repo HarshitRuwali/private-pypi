@@ -1,0 +1,17 @@
+[[source]]
+url = "http://localhost:8080/simple"
+verify_ssl = false
+name = "local"
+
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+coreutils = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

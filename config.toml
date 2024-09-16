@@ -1,0 +1,10 @@
+[private-pypi-pkg-repo]
+type = "github"
+owner = "private-pypi"
+repo = "private-pypi-pkg-repo"
+
+[local-file-system]
+type = "file_system"
+read_secret = "foo"
+write_secret = "bar"
+

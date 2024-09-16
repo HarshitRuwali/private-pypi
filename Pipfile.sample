@@ -1,0 +1,42 @@
+[[source]]
+url = "http://localhost:8080/simple"
+verify_ssl = false
+name = "local"
+
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytz = "*"
+tzlocal = "*"
+httpx = "*"
+pyyaml = "*"
+openpyxl = "*"
+beautifulsoup4 = "*"
+python-dotenv = "*"
+asyncpg = "*"
+pydantic = "*"
+backoff = "*"
+sentry-sdk = "*"
+sqlalchemy = "*"
+alembic = "*"
+psycopg2-binary = "*"
+types-tzlocal = "*"
+hubspot-api-client = "*"
+sanic = "*"
+boto3 = "*"
+uvicorn = "*"
+openaiconnector = "*"
+s3connector = {file = "bin/s3connector-0.1-py3-none-any.whl"}
+
+[dev-packages]
+pre-commit = "*"
+pytest = "*"
+pytest-mock = "*"
+pytest-cov = "*"
+salessync = {file = ".", editable = true}
+
+[requires]
+python_version = "3.11"
