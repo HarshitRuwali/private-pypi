@@ -9,7 +9,8 @@ services:
       - type: volume
         source: pypi-server
         target: /data/packages
-    command: -P . -a . /data/packages --overwrite
+      - ./.htpasswd:/data/.htpasswd
+    command: -P /data/.htpasswd -a 'update' /data/packages --overwrite
     restart: always
 
 volumes:
